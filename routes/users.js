@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 
-mongoose.connect('mongodb+srv://netflix-clone-project:rajeshmatre@cluster0.euurqwu.mongodb.net/');
+mongoose.connect('mongodb+srv://netflix-clone-project:matrerajesh@cluster0.euurqwu.mongodb.net/');
 
 const userSchema =mongoose.Schema({
     username: {
