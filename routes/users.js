@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 
-mongoose.connect('mongodb://127.0.0.1:27017/NetflixProject');
+mongoose.connect('mongodb+srv://netflix-clone-project:matrerajesh@cluster0.euurqwu.mongodb.net/');
 
 const userSchema =mongoose.Schema({
     username: {
