@@ -1,0 +1,389 @@
+*{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body{
+  background-color: gray;
+  overflow-y: hidden;
+}
+
+header{
+  height: 100vh;
+  width: 100vw;
+  margin-bottom: 10px;
+
+  overflow: hidden;
+}
+
+
+.backgroundImage{
+  position: absolute;
+  top:0px;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  z-index:-99;
+}
+
+
+.blackpattern{
+  background-color:black;
+  opacity: 70%;
+  position: absolute;
+  top:0px;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+.navbar{
+  height: 100px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap:350px;
+  position: absolute;
+  top:0px;
+  z-index: 100;
+}
+.rightNavbar{
+  display: flex;
+  gap:20px;
+}
+
+.logo>img{
+  height: 100px;
+  width: 150px;
+}
+
+#language{
+  border:2px solid rgb(255, 255, 255);
+  width: 100px;
+  padding:10px;
+  padding-right:10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: transparent;
+  color:white;
+}
+
+#language>option{
+  color:black;
+}
+
+.btn-signin{
+  height: 40px;
+  width: 100px;
+  background-color: red;
+  color:white;
+  cursor: pointer;
+  
+}
+
+
+.HeaderCenter{
+  position: absolute;
+  top:0px;
+  z-index:99;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:20px;
+  color:white;
+}
+
+#HeaderH1{
+  font-size: 50px;
+  display: flex;
+  width: 60vw;
+  margin:0px auto;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+
+#HeaderH4{
+  font-size: 20px;
+  width: 50vw;
+  text-align: center;
+}
+
+.emailHeader>input{
+  border:2px solid white;
+  padding: 10px 80px;
+}
+
+.emailHeader>input:focus {
+  outline: none; /* Focus outline ko hide karne ke liye */
+  border: 1px solid white; /* White border set karna */
+}
+
+.emailHeader>button{
+  padding:10px 40px;
+  background-color: red;
+  color:white;
+  font-size: 15px;
+  cursor: pointer;
+}
+.emailHeader>button:hover{
+  background-color: rgb(169, 31, 31);
+  transition: 0.5s;
+}
+
+
+
+.FirstSection{
+  height: 80vh;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.LFSection{
+  height: 100%;
+  width: 50vw;
+  gap:20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding:0px 0px 0px 100px;
+  font-family: 'Inter', sans-serif;
+ 
+}
+
+#LFH1{
+font-size: 40px;
+}
+
+#LFH4{
+  letter-spacing: 3px;
+  font-size: 20px;
+  width: 650px;
+}
+.RFSection{
+  height: 80vh;
+  width: 60vw;
+  position: relative;
+  z-index:99;
+  top:0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.RFSection>img{
+  
+display: flex;
+align-items: center;
+justify-content: center;
+z-index: 99;
+}
+
+.RFSection>video{
+  position: absolute;
+  top:130px;
+  z-index:-99;
+  right:175px;
+  
+}
+
+
+.SecondSection{
+  height: 80vh;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.LSSection{
+  height: 100%;
+  width: 30vw;
+  gap:20px;
+  padding:50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding:0px 0px 0px 100px;
+  font-family: 'Inter', sans-serif;
+ 
+}
+
+.ThirdSection
+{    height: 80vh;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  position: relative;
+
+}
+
+.LTSection{
+height: 100%;
+  width: 30vw;
+  gap:20px;
+  padding:50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding:0px 0px 0px 100px;
+  font-family: 'Inter', sans-serif;
+
+}
+
+
+
+
+.RTSection{
+  height: 100%;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.RTSection>img{
+  height: 350px;
+  width: 700px;
+  position: relative;
+  z-index: 100;
+}
+.RTSection>video{
+  position: absolute;
+  height: auto;
+  width: 500px;
+  z-index: 99;
+}
+
+
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 375px;
+  background-color: black;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content:space-around;
+
+}
+
+.footercon {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 50px;
+  background-color: transparent;
+}
+
+.footer .flex1 {
+  color:#999;;
+  justify-content:space-around;
+  align-items:flex-start;
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  width:100%;
+  font-size: 17px;
+  min-height: 30px;
+
+}
+
+.footer .flex1 h5 {
+  align-self:flex-start;
+}
+
+.list1 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-items: flex-start;
+  align-self: center;
+  justify-content: center;
+  min-height:50px;
+  font-size: 13px;
+  padding: 0px 70px;
+  text-align: left;
+}
+
+.list1 li {
+  font-size: 13px;
+  margin: 7px -10px;
+  list-style-type: none;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-items: center;
+  align-self: flex-start;
+  justify-content: center;
+}
+
+.list1 li a {
+  color: #999;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+li a {
+  font-size: 13px;
+  text-align: center;
+  color: #999;
+}
+
+
+.footertxt {
+  color:white;
+  display:flex;
+  flex-direction:row;
+  align-items:flex-end;
+  justify-content: flex-end;
+}
+
+.end {
+  width:100%;
+  min-height:50px;
+background-color: black;
+justify-content:space-around;
+align-items:flex-start;
+display: flex;
+flex-direction:row;
+flex-wrap:wrap;
+color:#999;
+margin-top:-60px;
+}
+
+.end h2 {
+  display:flex;
+  flex-direction: row;
+font-size:16px;
+}
+
+

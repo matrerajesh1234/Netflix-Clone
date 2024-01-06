@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+ 
+
+}
+
+
+body{
+  height: 100vh;
+  width: 100vw;
+}
+
+
+.NavigationBar{
+    background-color: black;
+  height: 100px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap:350px;
+  top:0px;
+  margin-bottom: 50px ;
+  z-index: 100;
+}
+.rightNavbar{
+  display: flex;
+  gap:20px;
+}
+
+.logo>img{
+  height: 100px;
+  width: 150px;
+}
+
+#language{
+  border:2px solid rgb(255, 255, 255);
+  width: 100px;
+  padding:10px;
+  padding-right:10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: transparent;
+  color:white;
+}
+
+#language>option{
+  color:black;
+}
+
+.btn-signOut{
+  height: 40px;
+  width: 100px;
+  background-color: red;
+  color:white;
+  cursor: pointer;
+  
+}
+.btn-signOut:hover{
+  background-color:rgb(163, 7, 7);
+}
+
+main{
+    padding:0px 50px;
+  }
+  
+  .movie > h1{
+    padding-left:20px;
+    overflow: hidden;
+  }
+  
+  
+  .cards{
+    display: flex;
+    gap:70px;
+    flex-wrap: wrap;
+  }
+  
+  .card>a>img{
+    height: 350px;
+    width: 300px;
+    cursor: pointer;
+  }
+  
+  
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 375px;
+  background-color: black;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content:space-around;
+  
+}
+
+.footercon {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 50px;
+  background-color: transparent;
+}
+
+.footer .flex1 {
+  color:#999;;
+  justify-content:space-around;
+  align-items:flex-start;
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  width:100%;
+  font-size: 17px;
+  min-height: 30px;
+
+}
+
+.footer .flex1 h5 {
+  align-self:flex-start;
+}
+
+.list1 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-items: flex-start;
+  align-self: center;
+  justify-content: center;
+  min-height:50px;
+  font-size: 13px;
+  padding: 0px 70px;
+  text-align: left;
+}
+
+.list1 li {
+  font-size: 13px;
+  margin: 7px -10px;
+  list-style-type: none;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-items: center;
+  align-self: flex-start;
+  justify-content: center;
+}
+
+.list1 li a {
+  color: #999;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+li a {
+  font-size: 13px;
+  text-align: center;
+  color: #999;
+}
+
+
+.footertxt {
+  color:white;
+  display:flex;
+  flex-direction:row;
+  align-items:flex-end;
+  justify-content: flex-end;
+}
+
+
+
+
+/* Your existing CSS */
+
+/* Media query for screens below 700px */
+@media screen and (max-width: 700px) {
+ 
+.NavigationBar{
+  background-color: black;
+height: 100px;
+width: 100vw;
+display: flex;
+align-items: center;
+justify-content: space-around;
+gap:0px;
+top:0px;
+margin-bottom: 50px ;
+z-index: 100;
+}
+.rightNavbar{
+display: flex;
+gap:20px;
+}
+
+  
+
+}
